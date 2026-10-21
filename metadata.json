@@ -1,0 +1,6 @@
+{
+  "name": "Senpai — The Endless Chase",
+  "description": "A high-octane 3D anime endless runner where Senpai runs for his bachelor freedom while Kiki relentlessly chases him.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

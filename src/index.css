@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b0f19;
+  width: 100vw;
+  height: 100vh;
+}
+
+.font-anime {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.text-stroke-sm {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-stroke-md {
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.85);
+}
+
+.text-stroke-lg {
+  -webkit-text-stroke: 3px rgba(0, 0, 0, 0.95);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Prevent mobile pull-to-refresh & overscroll bounce */
+canvas {
+  touch-action: none;
+}
